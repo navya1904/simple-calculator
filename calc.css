@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 5em;
+    font-family: serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 2s linear infinite;
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(
+            #008000, #00FF00);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+            #3CE7D7, #000FFF);
+        -webkit-background-clip: text;
+    }
+}
+a 
+{
+    color:black;
+    background-color: rgb(238, 117, 240);
+    font-size: medium;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    text-align: center;
+}

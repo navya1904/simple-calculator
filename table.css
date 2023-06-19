@@ -1,0 +1,14 @@
+fieldset
+{
+    text-align:left;
+    font-size: larger;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+div
+{
+    text-align:center;
+    font-size: larger;
+    vertical-align:middle;
+}
